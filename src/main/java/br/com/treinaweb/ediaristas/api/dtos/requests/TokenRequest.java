@@ -23,6 +23,6 @@ public class TokenRequest {
     @NotNull
     @NotEmpty
     @Size(max = 255)
-    private String senha;
+    private String password;
 
 }
