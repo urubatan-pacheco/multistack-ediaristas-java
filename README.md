@@ -38,7 +38,7 @@ drop database ediaristas_tw;
 create database ediaristas_tw;
 ```
 
-Atualize as configurações de acesso ao banco de dados no arquivo [application.properties](src/main/resources/application-dev.properties).
+Atualize as configurações de acesso ao banco de dados no arquivo [application-dev.properties](src/main/resources/application-dev.properties).
 
 ```properties
 # Datasource
