@@ -27,7 +27,7 @@ public class AuthRestController {
         return service.autenticar(tokenRequest);
     }
 
-    @PostMapping("/refresh")
+    @PostMapping("/token/refresh")
     public TokenResponse reautenticar(@RequestBody @Valid RefrehRequest refrehRequest) {
         return service.reautenticar(refrehRequest);
     }
